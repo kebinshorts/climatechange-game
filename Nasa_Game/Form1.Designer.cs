@@ -32,18 +32,21 @@
             this.label1 = new System.Windows.Forms.Label();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             this.pnl_startScreen = new System.Windows.Forms.Panel();
+            this.btn_instructions = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtBox_playerName = new System.Windows.Forms.TextBox();
             this.lbl_startScreenText = new System.Windows.Forms.Label();
             this.btn_startGame = new System.Windows.Forms.Button();
             this.lbl_Welcome = new System.Windows.Forms.Label();
-            this.btn_instructions = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.btn_exit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.pnl_startScreen.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -52,6 +55,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -77,16 +82,29 @@
             this.pnl_startScreen.Controls.Add(this.lbl_startScreenText);
             this.pnl_startScreen.Controls.Add(this.btn_startGame);
             this.pnl_startScreen.Controls.Add(this.lbl_Welcome);
-            this.pnl_startScreen.Location = new System.Drawing.Point(566, 322);
+            this.pnl_startScreen.Location = new System.Drawing.Point(582, 414);
             this.pnl_startScreen.Name = "pnl_startScreen";
-            this.pnl_startScreen.Size = new System.Drawing.Size(362, 274);
+            this.pnl_startScreen.Size = new System.Drawing.Size(416, 279);
             this.pnl_startScreen.TabIndex = 7;
+            // 
+            // btn_instructions
+            // 
+            this.btn_instructions.BackColor = System.Drawing.Color.LightBlue;
+            this.btn_instructions.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_instructions.Font = new System.Drawing.Font("Orbitron", 7.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_instructions.Location = new System.Drawing.Point(128, 88);
+            this.btn_instructions.Name = "btn_instructions";
+            this.btn_instructions.Size = new System.Drawing.Size(156, 57);
+            this.btn_instructions.TabIndex = 13;
+            this.btn_instructions.Text = "Instructions";
+            this.btn_instructions.UseVisualStyleBackColor = false;
+            this.btn_instructions.Click += new System.EventHandler(this.btn_instructions_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(25, 226);
+            this.label2.Location = new System.Drawing.Point(41, 242);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(334, 21);
             this.label2.TabIndex = 12;
@@ -94,7 +112,7 @@
             // 
             // txtBox_playerName
             // 
-            this.txtBox_playerName.Location = new System.Drawing.Point(31, 92);
+            this.txtBox_playerName.Location = new System.Drawing.Point(45, 103);
             this.txtBox_playerName.Name = "txtBox_playerName";
             this.txtBox_playerName.Size = new System.Drawing.Size(310, 26);
             this.txtBox_playerName.TabIndex = 11;
@@ -103,18 +121,20 @@
             // lbl_startScreenText
             // 
             this.lbl_startScreenText.AutoSize = true;
-            this.lbl_startScreenText.Location = new System.Drawing.Point(75, 50);
+            this.lbl_startScreenText.Font = new System.Drawing.Font("Yellowtail", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_startScreenText.Location = new System.Drawing.Point(123, 60);
             this.lbl_startScreenText.Name = "lbl_startScreenText";
-            this.lbl_startScreenText.Size = new System.Drawing.Size(149, 20);
+            this.lbl_startScreenText.Size = new System.Drawing.Size(167, 30);
             this.lbl_startScreenText.TabIndex = 10;
-            this.lbl_startScreenText.Text = "What is your name?";
+            this.lbl_startScreenText.Text = "Enter player name:";
             // 
             // btn_startGame
             // 
             this.btn_startGame.BackColor = System.Drawing.Color.LightBlue;
-            this.btn_startGame.Location = new System.Drawing.Point(115, 148);
+            this.btn_startGame.Font = new System.Drawing.Font("Orbitron", 7.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_startGame.Location = new System.Drawing.Point(128, 170);
             this.btn_startGame.Name = "btn_startGame";
-            this.btn_startGame.Size = new System.Drawing.Size(121, 57);
+            this.btn_startGame.Size = new System.Drawing.Size(156, 57);
             this.btn_startGame.TabIndex = 9;
             this.btn_startGame.Text = "Continue";
             this.btn_startGame.UseVisualStyleBackColor = false;
@@ -123,27 +143,17 @@
             // lbl_Welcome
             // 
             this.lbl_Welcome.AutoSize = true;
-            this.lbl_Welcome.Location = new System.Drawing.Point(75, 21);
+            this.lbl_Welcome.Font = new System.Drawing.Font("Orbitron", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Welcome.Location = new System.Drawing.Point(3, 17);
             this.lbl_Welcome.Name = "lbl_Welcome";
-            this.lbl_Welcome.Size = new System.Drawing.Size(191, 20);
+            this.lbl_Welcome.Size = new System.Drawing.Size(385, 43);
             this.lbl_Welcome.TabIndex = 8;
-            this.lbl_Welcome.Text = "Welcome to (gamename)!";
-            // 
-            // btn_instructions
-            // 
-            this.btn_instructions.BackColor = System.Drawing.Color.LightBlue;
-            this.btn_instructions.Location = new System.Drawing.Point(115, 73);
-            this.btn_instructions.Name = "btn_instructions";
-            this.btn_instructions.Size = new System.Drawing.Size(121, 57);
-            this.btn_instructions.TabIndex = 13;
-            this.btn_instructions.Text = "Instructions";
-            this.btn_instructions.UseVisualStyleBackColor = false;
-            this.btn_instructions.Click += new System.EventHandler(this.btn_instructions_Click);
+            this.lbl_Welcome.Text = "Welcome to 20.9.1";
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(267, 660);
+            this.pictureBox6.Location = new System.Drawing.Point(58, 752);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(416, 279);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -153,7 +163,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(1027, 322);
+            this.pictureBox5.Location = new System.Drawing.Point(1099, 752);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(416, 279);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -163,7 +173,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(846, 660);
+            this.pictureBox4.Location = new System.Drawing.Point(582, 752);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(416, 279);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -173,7 +183,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(846, 12);
+            this.pictureBox3.Location = new System.Drawing.Point(1099, 414);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(416, 279);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -183,7 +193,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Nasa_Game.Properties.Resources.ocean_g_billboard_1548_1024x677;
-            this.pictureBox2.Location = new System.Drawing.Point(267, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(58, 79);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(416, 279);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -193,12 +203,44 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(58, 322);
+            this.pictureBox1.Location = new System.Drawing.Point(58, 414);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(416, 279);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(582, 79);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(416, 279);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 8;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(1099, 79);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(416, 279);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 9;
+            this.pictureBox8.TabStop = false;
+            // 
+            // btn_exit
+            // 
+            this.btn_exit.BackColor = System.Drawing.Color.Coral;
+            this.btn_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_exit.Location = new System.Drawing.Point(1394, 12);
+            this.btn_exit.Name = "btn_exit";
+            this.btn_exit.Size = new System.Drawing.Size(121, 57);
+            this.btn_exit.TabIndex = 14;
+            this.btn_exit.Text = "Exit";
+            this.btn_exit.UseVisualStyleBackColor = false;
+            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
             // Form1
             // 
@@ -206,6 +248,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1612, 1007);
+            this.Controls.Add(this.btn_exit);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pnl_startScreen);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox6);
@@ -214,8 +259,10 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Welcome";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.pnl_startScreen.ResumeLayout(false);
             this.pnl_startScreen.PerformLayout();
@@ -225,6 +272,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -247,6 +296,9 @@
         private System.Windows.Forms.Label lbl_startScreenText;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_instructions;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Button btn_exit;
     }
 }
 

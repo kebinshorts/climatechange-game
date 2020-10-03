@@ -1,0 +1,13 @@
+C:\Users\as\OneDrive\Documents\Nasa_Space_Apps\Nasa_Game\Nasa_Game\bin\Debug\Nasa_Game.exe.config
+C:\Users\as\OneDrive\Documents\Nasa_Space_Apps\Nasa_Game\Nasa_Game\bin\Debug\Nasa_Game.exe
+C:\Users\as\OneDrive\Documents\Nasa_Space_Apps\Nasa_Game\Nasa_Game\bin\Debug\Nasa_Game.pdb
+C:\Users\as\OneDrive\Documents\Nasa_Space_Apps\Nasa_Game\Nasa_Game\obj\Debug\Nasa_Game.csprojAssemblyReference.cache
+C:\Users\as\OneDrive\Documents\Nasa_Space_Apps\Nasa_Game\Nasa_Game\obj\Debug\Nasa_Game.Form1.resources
+C:\Users\as\OneDrive\Documents\Nasa_Space_Apps\Nasa_Game\Nasa_Game\obj\Debug\Nasa_Game.Properties.Resources.resources
+C:\Users\as\OneDrive\Documents\Nasa_Space_Apps\Nasa_Game\Nasa_Game\obj\Debug\Nasa_Game.csproj.GenerateResource.cache
+C:\Users\as\OneDrive\Documents\Nasa_Space_Apps\Nasa_Game\Nasa_Game\obj\Debug\Nasa_Game.csproj.CoreCompileInputs.cache
+C:\Users\as\OneDrive\Documents\Nasa_Space_Apps\Nasa_Game\Nasa_Game\obj\Debug\Nasa_Game.exe
+C:\Users\as\OneDrive\Documents\Nasa_Space_Apps\Nasa_Game\Nasa_Game\obj\Debug\Nasa_Game.pdb
+C:\Users\as\OneDrive\Documents\Nasa_Space_Apps\Nasa_Game\Nasa_Game\obj\Debug\Nasa_Game.Form2.resources
+C:\Users\as\OneDrive\Documents\Nasa_Space_Apps\Nasa_Game\Nasa_Game\obj\Debug\Nasa_Game.Form3.resources
+C:\Users\as\OneDrive\Documents\Nasa_Space_Apps\Nasa_Game\Nasa_Game\obj\Debug\Nasa_Game.Reef.resources

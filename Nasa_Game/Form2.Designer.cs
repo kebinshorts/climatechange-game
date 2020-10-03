@@ -36,7 +36,7 @@
             // 
             // btn_back
             // 
-            this.btn_back.Location = new System.Drawing.Point(189, 333);
+            this.btn_back.Location = new System.Drawing.Point(189, 849);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(149, 76);
             this.btn_back.TabIndex = 0;
@@ -66,7 +66,7 @@
             // 
             // btn_start
             // 
-            this.btn_start.Location = new System.Drawing.Point(445, 333);
+            this.btn_start.Location = new System.Drawing.Point(627, 849);
             this.btn_start.Name = "btn_start";
             this.btn_start.Size = new System.Drawing.Size(149, 76);
             this.btn_start.TabIndex = 3;
@@ -78,13 +78,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1096, 977);
             this.Controls.Add(this.btn_start);
             this.Controls.Add(this.lbl_instructions);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_back);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Instructions";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

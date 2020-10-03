@@ -23,5 +23,12 @@ namespace Nasa_Game
             Form2 f2 = new Form2();
             f2.Show();
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            this.TopMost = true;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Size = new Size(1100, 700);
+        }
     }
 }

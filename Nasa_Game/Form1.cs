@@ -20,20 +20,21 @@ namespace Nasa_Game
             btn_startGame.Text = "Continue";
             btn_instructions.Visible = false;
 
+
+
             //check if player is coming back from instructions page 
-            if (Global.playerName != null)
+            if (Global.playerName!= null)
             {
-                baha();
+                UpdateStartScreen();
             }
 
         }
-        //im so sorry someone give this a better name 
-        public void baha()
+        public void UpdateStartScreen()
         {
             btn_startGame.Text = "Start Game!";
             btn_instructions.Visible = true;
             txtBox_playerName.Visible = false;
-            lbl_Welcome.Text = "Hi " + Global.playerName + "!";
+            lbl_Welcome.Text = "Welcome " + Global.playerName + "!";
             lbl_startScreenText.Visible = false;
         }
 
@@ -82,8 +83,9 @@ namespace Nasa_Game
                     //save inputted text in textbox as name var
                     Global.playerName = txtBox_playerName.Text;
                     //player obj instantiation woo, passing in the name 
-                    Player user = new Player(Global.playerName);
-                    baha();
+                    
+                    user user = new user(Global.playerName);
+                    UpdateStartScreen();
                 }
             }
         }
@@ -95,5 +97,18 @@ namespace Nasa_Game
             f2.Show();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.TopMost = true;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Size = new Size(1055, 725);
+
+            
+        }
+
+        private void btn_exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

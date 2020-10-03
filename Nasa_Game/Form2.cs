@@ -31,5 +31,13 @@ namespace Nasa_Game
             Form3 f3 = new Form3();
             f3.Show();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            this.TopMost = true;
+            this.FormBorderStyle = FormBorderStyle.None;
+            //change sizes 
+            this.Size = new Size(600, 800);
+        }
     }
 }

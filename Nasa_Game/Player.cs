@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Nasa_Game
 {
-    public class Player //": className" for inheritance (c# only allows single inherit.) 
+    public class eye //": className" for inheritance (c# only allows single inherit.) 
     {
         //kinda forgot the whole static private public stuff again AAA
         public string name;
         public static double life;
-        public Player(String name)
+        public eye(String name)
         {
             this.name = name;
             life = 100.0;
