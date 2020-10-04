@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -602,7 +602,7 @@ namespace Nasa_Game
         {
             pnl_reef.Show();
             choices_hide();
-            btn_challenge.Show();
+            //btn_challenge.Show();
             buttons_enable();
             counter = a5;
             lbl_context.Text = attraction[counter];
