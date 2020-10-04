@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,128 +14,123 @@ namespace Nasa_Game
     {
         string[] correct_ans = {
             //1 pilocene
-            "Yes, invest more on satellites so we can monitor climate change globally",
+            "Coastal cities",
             //2 rock 
             "Yes, employ more satellites to track global warming",
             //3 ice 
-            "Emission in urban area",
-            //polar bear
-            "Increase carbon dioxide emission into the atmosphere",
-            //wack area
-            "",
-            //last 
-            "",
-            //gallery 
-            "Orbital debris are dangerous for satellites since they are traveling in a fast speed",
-            //info 
-            "Yes, definitely. They are dangerous",
-            //oil 
-            "Yes, it is a great proposal to clean up the sapce environment"
-            
+            "It acts as the fridge for Earth",
+            //4 polar bear
+            "They cannot adapt",
+            //5 wack area
+            "Energy reflected from the sun warms the Arctic faster",
+            //6 last 
+            "Ice never melts in Inuktitut",
+            //7 gallery 
+            "Red Foxes",
+            //8 info 
+            "Urged governments to convert to renewable energy",
+            //9 oil 
+            "Permafrost and Tundra areas melted"
+
         };
 
         //string answer;
         string[] choice1 = {
-            //terra
-             "Yes, invest more on satellites so we can monitor climate change globally",
-             //Modis
-            "We can feel global warming, there is no need",
-            //Misr
-            "Global warming",
-            //calfire
-            "Increase carbon dioxide emission into the atmosphere",
-            //reef
+            //1
+             "Warm cities",
+             //2
             "",
-            //calipso
-            "",
-            //junk
-            "They are staying where they are, there's no worries",
-            //net
-            "Yes, definitely. They are dangerous",
-            //laser
-            "Isn't there too much radiation? Bad for health",
-            //tracking
-            "There's too many of them, forget it"
-
+            //3
+            "It acts as the fridge for Earth",
+            //4
+            "They didn't feel a change",
+            //5
+            "A type of rollerblades",
+            //6
+            "When in Rome",
+            //7
+            "Red Foxes",
+            //8
+            "Urged governments to convert to renewable energy",
+            //9
+            "They set a small bomb to destroy ice layer"
+           
         };
         string[] choice2 = {
-            //terra
-            "No, save up money to send more people to outerspace so we can escape",
-            //Modis
-            "Yes, employ more satellites to track global warming",
-            //Misr
-            "To see how much ice has melt in arctic",
-            //calfire
-            "we can have more farming land",
-            //reef
+            //1
+            "Cities with sunset views",
+            //2
             "",
-            //calipso
-            "",
-            //junk
-            "Orbital debris are dangerous for satellites since they are traveling in a fast speed",
-            //net
-            "No, it looks like a fishing technique",
-            //laser
-            "Yes, it is a great proposal to clean up the sapce environment",
-            //tracking
-            "Will it create more jobs?"
+            //3
+            "To see how much ice has melted",
+            //4
+            "They're doing amazing",
+            //5
+            "Energy reflected from the sun warms the Arctic faster",
+            //6
+            "When in Inuktitut",
+            //7
+            "Other White Foxes",
+            //8
+            "Planned the Raine Island Restoration project",
+            //9
+            "Permafrost and Tundra areas melted"
+           
         };
         string[] choice3 = {
-            //terra
-            "Maybe, we can invest later when climate change gets worse",
-            //Modis
-            "No, we have enough satellites",
-            //Misr
-            "Emission in urban area",
-            //calfire
-            "We can build more houses",
-            //reef
+            //1
+            "Coastal cities",
+            //2 no
             "",
-            //calipso
-            "",
-            //junk
-            "No, orbital bedris looks beautiful",
-            //net
-            "We shouldnt send more satellites",
-            //laser
-            "This sounds unrealistic",
-            //tracking
-            "Yes, more tracking system can help us determine the collision risk"
+            //3
+            "It is not",
+            //4
+            "They cannot adapt",
+            //5
+            "Another brand of Fruit Loops",
+            //6
+            "Ice never melts in Inuktitut",
+            //7
+            "Blue Birds",
+            //8
+            "Aided in oil mining in the Arctic",
+            //9
+            "They use fire to burn the ice"
 
         };
         string[] attraction = {
             //1
             "Welcome to the Pilocene Arctic!" +
-                "\r\n" +
-                "\r\nbetween earth's atmosphere, land, snow and ice, ocent and energy balance" +
-                "\r\nWith all these analytical cameras, we can understnad Climate on Earth and climate change" +
-                "\r\nThis can also help us to map the impact of human activities, " +
-                "\r\nand the impact of natural disasters on our ecosystems",
+                "\r\nThe Pilocene Arctic was completely different from today's Arctic." +
+                "\r\nIt was very warm and there were no ice in the Arctic (ice was only in Antarctica)." +
+                "\r\nAs a result, sea levels were 9-15 meters (30-50 feet) higher, locations such as:"+
+                "\r\nShanghai, New York, Houston, Seattle Island, Miami, and more coastal cities were underwater.",
 
             //2
             "This is a Pilocene Rock. Let's learn more."+
-                "\r\nthe accumluated smoke makes the flaming hotspots to hard to be spotted"+
-                "\r\nModis ia a Moderate Resolution Imaging Spectroradiometer"+
-                "\r\nthat can see the longer wavelengths of nonvisible light" +
-                "\r\nor infrared radiation produced by the heat coming from actively burning wildfires",
+                "\r\nWhy were CO2 concentrations during the Pilocene Arctic so high (making it warmer)?"+
+                "\r\nEarth natural thermostat: rock break-downs cause CO2 buildup, and  then"+
+                "\r\nas CO2 and temp. rises, it takes away the excessive CO2 from the atmosphere naturally." +
+                "\r\nThis is called the Rock Weathering Thermostat, that occurs over a span of a few million years.",
 
             //3
             "Ice = Arctic, Arctic = Ice. What will Artic be without Ice?"+
-                "\r\nIt has 9 different cameres collect snapshot of earth simultaneously"+
-                "\r\nScientists look at those different perspectives to calculate the extent and height of the smoke plume downwind"+
-                "\r\nas well as the height nearest the source of the fire, called the injection height. " +
-                "\r\nThat information is essential for determining how far the smoke will travel.",
+                "\r\nOver the past 50 years, the average temperature has increased by 2.3°C in the Artic."+
+                "\r\nThe Arctic acts as our planet's fridge: it helps cool the Earth."+
+                "\r\nCurrently we are in Arctic Amplification: temp. increasing at x2 the rate of global warming.",
 
             //4
             "This is a trio of polar bears - threading on thin ice."+
-                "\r\nabout 4 Million Acres has been burned away."+
-                "\r\nNasa's Terra Satellite helps sciences the officials to track the spread of the wildfire and smoke,"+
-                "\r\nand determine how much we have lost in this wildfire",
+                "\r\nThe habitat of polar bears, and other Arctic species, is ice. Now that ice is melting, "+
+                "\r\nit means these animals now are losing their habitat to live in. Due to the rapid shrinking of"+
+                "\r\nice, Arctic species are unable to adapt to such sudden changes."+
+                "\r\nMost affected species: polar bears, walruses, reindeers, narwals, belguas, and bowheads.",
 
             //5
             "Something is not right here at all. Let's look into it."+
-                "\r\nIt is the world's biggest and the only organism that is visible from out space"+
-                "\r\nIsn't this nature's gift so beautiful? How can we leave it in danger?",
+                "\r\nThe Feedback or Albedo effect: when ice and snow relect a majority of the sun's energy into space."+
+                "\r\nWhen the ice melts, water and rock absorb the sun energy's, increasing the temperature even more."+ 
+                "\r\nAs a result: permafrost melts, releasing CO2 and methane from now unfrozen animals and plants.",
 
             //6 
             "This is the Last Ice Area project. Let's learn more."+
@@ -148,10 +143,10 @@ namespace Nasa_Game
                 "\r\nAs the Arctic is warming up, species from the South poses as threats to existing Arctic species."+
                 "\r\nThe Artic Fox's largest competitor, the Red Fox is moving into the now warmer Tundra areas.",
             
-            //8 HERE
-            "Welcome to the Information Centre!"+
-                "\r\nSuch practice is similar to the searching bodies in wide water"+
-                "\r\nThe giant net is used to capture and gather junk together",
+            //8 
+            "Welcome to the Information Centre! Here are a few orgnanizations and their work."+
+                "\r\nWWF:initiated the Last Ice Area project, and urged governments to tranistion towards renewable energy."+
+                "\r\nPolar Bears Int.:goal is to maintain long-term sustainability of the Arctic for Polar Bears(uses trackers).",
                 
             //9 
             "This is oil drilling the Arctic."+
@@ -163,26 +158,32 @@ namespace Nasa_Game
 
 
         string[] challenge = {
-            //Terra Question
-            "Should we invest more in satellites like Terra to help us monitor our Earth?",
-            //Modis Question
-            "Should we employ more satellites with thermal dectors and camera to help us further track global warming?",
-            //Misr Question
-            "Where else can we apply MISR technology on Earth?",
-            //Calfire
-            "How does california wildfire affect our environment",
-            //reef
+            //1
+            "What city types would be underwater in the Pilocene era?",
+
+            //2
             "",
-            //calipso
-            "",
-            //Junk question
-            "What is bad about orbital debris?",
-            //net junk
-            "Should we launch more satellites with giant net to clean up debris?",
-            //Laser junk
-            "Should we invest more into laser boom system to clean up debris?",
-            //Tracking Question
-            "Should we invest more into debris tracking system to help target cleaning the large pieces?"
+
+            //3
+            "Why is the Arctic important?",
+
+            //4
+            "How are Arctic species adapting to a warmer Arctic?",
+
+            //5
+            "What is the Feedback/Albedo loop?",
+
+            //6
+            "What does Tuvaijuittuq mean in English?",
+
+            //7
+            "Who is the Arctic Fox's largest competitor?",
+
+            //8
+            "What contributions did WWF make towards the cause?",
+
+            //9
+            "How can companies conduct oil production in the Arctic?"
         };
 
         int a1 = 0;
@@ -556,7 +557,7 @@ namespace Nasa_Game
         {
             pnl_arctic.Show();
             choices_hide();
-            btn_challenge.Show();
+            //btn_challenge.Show();
             buttons_enable();
             counter = a2;
             lbl_context.Text = attraction[counter];
