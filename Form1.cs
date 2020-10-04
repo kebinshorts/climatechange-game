@@ -49,6 +49,7 @@ namespace Nasa_Game
             }
             else
             {
+                Global.playerName = txtBox_playerName.Text;
                 UpdateStartScreen();
             }
             //being safe 
