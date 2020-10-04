@@ -121,4 +121,97 @@
   <data name="ocean-g-billboard-1548-1024x677" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ocean-g-billboard-1548-1024x677.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mountain-river" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mountain-river.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="190826-amazon-brazil-fire-cs-834a_eef05addd0d4dc77d766710fa90413d8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\190826-amazon-brazil-fire-cs-834a_eef05addd0d4dc77d766710fa90413d8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="player" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\player.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PngJoy_town-animal-crossing-town-hall-transparent-png_4225605" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PngJoy_town-animal-crossing-town-hall-transparent-png_4225605.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brazil-mining" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brazil-mining.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amazon-floating-village-belen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\amazon-floating-village-belen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwing.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uokpl.rs-tropical-plant-png-4655267" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uokpl.rs-tropical-plant-png-4655267.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6a0120a7fc3be9970b01a3fd28e17b970b2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6a0120a7fc3be9970b01a3fd28e17b970b2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d25e30bff542ac04f0cf86be17d7621b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d25e30bff542ac04f0cf86be17d7621b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngegg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngegg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9470891" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9470891.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brazil-dam-001_slide-0df6929a03f1634060f780b46a245fa4faabb90c-s900-c85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brazil-dam-001_slide-0df6929a03f1634060f780b46a245fa4faabb90c-s900-c85.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Garbage_Bin_(Green)_NH_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Garbage_Bin_(Green)_NH_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open-manhole-cover1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open-manhole-cover1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d6qwhea-814b9ea0-503f-44fa-974a-9d7942cad29b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d6qwhea-814b9ea0-503f-44fa-974a-9d7942cad29b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="videoblocks-aerial-top-down-view-of-traffic-jam-on-a-car-bridge-and-moving-train-4k-video_bbt5owmbw_thumbnail-1080_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\videoblocks-aerial-top-down-view-of-traffic-jam-on-a-car-bridge-and-moving-train-4k-video_bbt5owmbw_thumbnail-1080_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e7s07jwaq3e21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e7s07jwaq3e21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6a0120a7fc3be9970b01a3fd28e17b970b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6a0120a7fc3be9970b01a3fd28e17b970b1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="night-power-lines-utility-pole-anime-wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\night-power-lines-utility-pole-anime-wallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NH-Furniture-Construction_sign1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NH-Furniture-Construction_sign1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clipart4233546" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipart4233546.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NH-Furniture-Construction_sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NH-Furniture-Construction_sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="108-1082579_trash-can-png-transparent-images-transparent-background-garbage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\108-1082579_trash-can-png-transparent-images-transparent-background-garbage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6a0120a7fc3be9970b01a3fd28e17b970b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6a0120a7fc3be9970b01a3fd28e17b970b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slums" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slums.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="947089" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\947089.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="night-power-lines-utility-pole-anime-wallpaper1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\night-power-lines-utility-pole-anime-wallpaper1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-tree-tropical-rainforest-jungle-tree-png-image-5a74ce63aa07f5.7161305915176044516965" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-tree-tropical-rainforest-jungle-tree-png-image-5a74ce63aa07f5.7161305915176044516965.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open-manhole-cover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open-manhole-cover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agriculture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agriculture1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
